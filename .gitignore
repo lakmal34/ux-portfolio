@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE settings
+.vscode/
+.idea/
+
+# macOS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Vite cache
+.vite/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# Vercel local files
+.vercel/
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
