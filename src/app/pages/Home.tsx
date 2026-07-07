@@ -1,12 +1,12 @@
 import { Link } from 'react-router';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
-import logo from '../../imports/logo.png';
-import logoOutline from '../../imports/logo-outline.png';
-import figmaCommunityImg from '../../imports/ChatGPT_Image_Jun_9__2026__08_09_30_PM.png';
-import transcendentalImg from '../../imports/ChatGPT_Image_Jun_6__2026__04_08_30_PM.png';
-import fitRadioImg from '../../imports/ChatGPT_Image_Jun_6__2026__04_40_16_PM.png';
-import bizzHubImg from '../../imports/ChatGPT_Image_Jun_6__2026__06_22_56_PM.png';
-import livingSpaceImg from '../../imports/ChatGPT_Image_Jun_9__2026__06_35_56_PM.png';
+import logo from '../../imports/logo.webp';
+import logoOutline from '../../imports/logo-outline.webp';
+import figmaCommunityImg from '../../imports/ChatGPT_Image_Jun_9__2026__08_09_30_PM.webp';
+import transcendentalImg from '../../imports/ChatGPT_Image_Jun_6__2026__04_08_30_PM.webp';
+import fitRadioImg from '../../imports/ChatGPT_Image_Jun_6__2026__04_40_16_PM.webp';
+import bizzHubImg from '../../imports/ChatGPT_Image_Jun_6__2026__06_22_56_PM.webp';
+import livingSpaceImg from '../../imports/ChatGPT_Image_Jun_9__2026__06_35_56_PM.webp';
 
 const caseStudies = [
   {
