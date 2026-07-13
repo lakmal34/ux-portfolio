@@ -3,37 +3,7 @@ import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import logo from '../../imports/logo.webp';
 import logoOutline from '../../imports/logo-outline.webp';
 import figmaCommunityImg from '../../imports/ChatGPT_Image_Jun_9__2026__08_09_30_PM.webp';
-import transcendentalImg from '../../imports/ChatGPT_Image_Jun_6__2026__04_08_30_PM.webp';
-import fitRadioImg from '../../imports/ChatGPT_Image_Jun_6__2026__04_40_16_PM.webp';
-import bizzHubImg from '../../imports/ChatGPT_Image_Jun_6__2026__06_22_56_PM.webp';
-import livingSpaceImg from '../../imports/ChatGPT_Image_Jun_9__2026__06_35_56_PM.webp';
-
-const caseStudies = [
-  {
-    id: 'transcendental-meditation',
-    title: 'Transcendental Meditation',
-    image: transcendentalImg,
-    alt: 'Transcendental Meditation'
-  },
-  {
-    id: 'fitradio',
-    title: 'FitRadio',
-    image: fitRadioImg,
-    alt: 'FitRadio'
-  },
-  {
-    id: 'bizzhub',
-    title: 'BizzHub',
-    image: bizzHubImg,
-    alt: 'BizzHub'
-  },
-  {
-    id: 'project-management',
-    title: 'Project Management',
-    image: livingSpaceImg,
-    alt: 'Project Management'
-  }
-];
+import { homeCaseStudyCards } from '../content/caseStudyContent';
 
 export function Home() {
   return (
@@ -61,7 +31,7 @@ export function Home() {
       {/* Project Grid */}
       <section className="px-6 pb-20 max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
-          {caseStudies.map((study) => (
+          {homeCaseStudyCards.map((study) => (
             <Link
               key={study.id}
               to={`/case-study/${study.id}`}
