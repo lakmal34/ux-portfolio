@@ -19,7 +19,7 @@ import fitRadioPlayer2 from '../../imports/Player.webp';
 import fitRadioStartSession from '../../imports/Start_Session.webp';
 import transcendentalHero from '../../imports/ChatGPT_Image_Jun_6__2026__04_08_30_PM.webp';
 import fitRadioHero from '../../imports/ChatGPT_Image_Jun_6__2026__04_40_16_PM.webp';
-import projectManagementHero from '../../imports/ChatGPT_Image_Jun_9__2026__06_35_56_PM.webp';
+import projectManagementHero from '../../imports/PMheader.webp';
 import homeCardHero from '../../imports/bizzhubthumbnail.webp';
 import firstTileHero from '../../imports/1.webp';
 import secondTileHero from '../../imports/2.webp';
@@ -31,6 +31,14 @@ import middletonImage3 from '../../imports/m3.webp';
 import middletonImage4 from '../../imports/m4.webp';
 import middletonImage5 from '../../imports/m5.webp';
 import middletonImage6 from '../../imports/m6.webp';
+import PMImage1 from '../../imports/pm1.webp';
+import PMImage2 from '../../imports/pm2.webp';
+import PMImage3 from '../../imports/pm3.webp';
+import PMImage4 from '../../imports/pm4.webp';
+import PMImage5 from '../../imports/pm5.webp';
+import PMImage6 from '../../imports/pm6.webp';
+
+
 
 export type CaseStudyItem = {
   slug: string;
@@ -90,7 +98,7 @@ export const caseStudies: CaseStudyItem[] = [
     year: '2024',
     client: 'Project Management',
     heroImage: projectManagementHero,
-    images: ['https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=1200&h=800&fit=crop', 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&h=800&fit=crop', 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop', 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?w=1200&h=800&fit=crop', 'https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&h=800&fit=crop', 'https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?w=1200&h=800&fit=crop'],
+    images: [PMImage1, PMImage2, PMImage3, PMImage4, PMImage5, PMImage6],
     content: projectManagementContent,
   },
 ];
