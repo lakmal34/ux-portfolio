@@ -1,7 +1,7 @@
 import { Link } from 'react-router';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import logo from '../../imports/logo.webp';
-import figmaCommunityImg from '../../imports/ChatGPT_Image_Jun_9__2026__08_09_30_PM.webp';
+// removed hero image import per request
 import CareerTimeline from '../components/CareerTimeline';
 
 const aboutHighlights = [
@@ -81,16 +81,10 @@ export function About() {
         </div>
       </section>
 
-      {/* Hero Media */}
-      <section className="px-6 mb-20">
-        <div className="max-w-6xl mx-auto">
-          <div className="aspect-[16/10] bg-gray-100 overflow-hidden rounded-3xl">
-            <ImageWithFallback
-              src={figmaCommunityImg}
-              alt="Design showcase"
-              className="w-full h-full object-cover"
-            />
-          </div>
+      {/* Centered Career Timeline */}
+      <section className="px-6 py-8 flex items-center justify-center min-h-[60vh]">
+        <div className="w-full max-w-4xl">
+          <CareerTimeline />
         </div>
       </section>
 
@@ -117,20 +111,7 @@ export function About() {
         </div>
       </section>
 
-      {/* Image Grid */}
-      <section className="px-6 pb-20">
-        <div className="max-w-6xl mx-auto grid grid-cols-3 gap-4">
-          {[...Array(6)].map((_, index) => (
-            <div key={index} className="aspect-[4/3] bg-gray-100 overflow-hidden rounded-3xl">
-              <ImageWithFallback
-                src={figmaCommunityImg}
-                alt={`About image ${index + 1}`}
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
-      </section>
+      {/* removed image grid per request */}
     </div>
   );
 }
