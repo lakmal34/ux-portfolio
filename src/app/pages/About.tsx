@@ -2,6 +2,7 @@ import { Link } from 'react-router';
 import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import logo from '../../imports/logo.webp';
 import figmaCommunityImg from '../../imports/ChatGPT_Image_Jun_9__2026__08_09_30_PM.webp';
+import CareerTimeline from '../components/CareerTimeline';
 
 const aboutHighlights = [
   {
@@ -106,6 +107,13 @@ export function About() {
               </p>
             </div>
           ))}
+        </div>
+      </section>
+
+      {/* Career Timeline */}
+      <section className="px-6 pb-20">
+        <div className="max-w-6xl mx-auto">
+          <CareerTimeline />
         </div>
       </section>
 
