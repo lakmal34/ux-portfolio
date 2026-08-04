@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import ImageWithFallback from './figma/ImageWithFallback';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 type Milestone = {
   period: string;

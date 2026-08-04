@@ -1,6 +1,6 @@
 import { Link } from 'react-router';
 import logo from '../../imports/logo.webp';
-import ImageWithFallback from '../components/figma/ImageWithFallback';
+import { ImageWithFallback } from '../components/figma/ImageWithFallback';
 import CareerTimeline from '../components/CareerTimeline';
 
 export function Career() {
