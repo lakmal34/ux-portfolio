@@ -162,7 +162,7 @@ export function CaseStudyDetail() {
         </div>
         <nav className="flex gap-8 text-sm">
           <Link to="/" className="hover:opacity-60 transition-opacity">Work</Link>
-          <a href="#" className="hover:opacity-60 transition-opacity">About</a>
+          <Link to="/about" className="hover:opacity-60 transition-opacity">About</Link>
         </nav>
       </header>
 

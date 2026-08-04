@@ -14,8 +14,8 @@ export function Home() {
           <ImageWithFallback src={logo} alt="Lakmal" className="w-[60px] h-[60px] object-contain" />
         </Link>
         <nav className="flex gap-8 text-sm">
-          <a href="#" className="hover:opacity-60 transition-opacity">Work</a>
-          <a href="#" className="hover:opacity-60 transition-opacity">About</a>
+          <Link to="/" className="hover:opacity-60 transition-opacity">Work</Link>
+          <Link to="/about" className="hover:opacity-60 transition-opacity">About</Link>
         </nav>
       </header>
 
@@ -148,8 +148,8 @@ export function Home() {
           <img src={logoOutline} alt="Lakmal" className="w-[72px] h-[72px]" />
           <p className="text-xs text-gray-400">© 2026 Lakmal Kaviratne. All rights reserved.</p>
           <nav className="flex gap-8 text-xs tracking-widest uppercase text-gray-500">
-            <a href="#" className="hover:opacity-60 transition-opacity">Work</a>
-            <a href="#" className="hover:opacity-60 transition-opacity">About</a>
+            <Link to="/" className="hover:opacity-60 transition-opacity">Work</Link>
+            <Link to="/about" className="hover:opacity-60 transition-opacity">About</Link>
             <a href="#" className="hover:opacity-60 transition-opacity">Contact</a>
           </nav>
         </div>
